@@ -4,7 +4,7 @@ Depuración de datos: Todos y luego comparamos.
 
 2 métodos de reducción de dimensionalidad: María
 
-2 métodos de clusterización:
+2 métodos de clusterización: Laura
 
 3 métodos de aprendizaje supervisado + métricas:
 
