@@ -51,7 +51,7 @@ data$sample <- class$Sample
 #de ser numéricas. Se comprueba que el numero de filas y columnas es correcto: 
 #801 filas y 500 columnas.
 
-data_to_clean = select(data, -sample, -class)
+data_to_clean = subset(data, select = -c(sample, class))
 print(paste("El conjunto de datos tiene", nrow(data_to_clean), "filas y", 
             ncol(data_to_clean), "columnas."))
 
